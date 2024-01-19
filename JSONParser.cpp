@@ -8,6 +8,7 @@
 #include <string>
 #include <vector>
 #include <unordered_map>
+#include "print.h"
 
 struct JSONObject{
     std::variant
@@ -22,6 +23,7 @@ struct JSONObject{
     > inner;
 };
 
+// 11.51
 JSONObject parse(std::string_view json) {
     if (json.empty()) {
         return  JSONObject{std::monostate{}};
@@ -35,5 +37,7 @@ JSONObject parse(std::string_view json) {
 }
 
 int main() {
+    std::string_view str = "";\
+    print(str);
     return 0;
 }
