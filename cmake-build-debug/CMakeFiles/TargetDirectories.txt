@@ -1,0 +1,3 @@
+C:/computerProject/CPPProject/JSONParser/cmake-build-debug/CMakeFiles/JSONParser.dir
+C:/computerProject/CPPProject/JSONParser/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/computerProject/CPPProject/JSONParser/cmake-build-debug/CMakeFiles/rebuild_cache.dir
